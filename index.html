@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+      integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link href="./output/output.css" rel="stylesheet" />
+    <title>Profecssional Portfolio</title>
+  </head>
+  <body class="2xl:max-w-screen-2xl 2xl:mx-auto 2xl:bg-primary">
+    <header
+      class="p-6 bg-primary text-text relative md:p-16 flex flex-col gap-y-5 lg:gap-y-20 z-40"
+    >
+      <nav class="p-2 flex justify-between items-center">
+        <a class="text-accent" href="#">JD</a>
+
+        <ul
+          class="nav sm:flex-row scale-y-0 sm:scale-y-100 sm:backdrop-blur-0 sm:static sm:p-2 sm:bg-transparent"
+        >
+          <li class="m-2">
+            <a
+              class="nav--link sm:hover:text-accent sm:before:bg-accent"
+              href="#"
+              >Home</a
+            >
+          </li>
+          <li class="m-2">
+            <a
+              class="nav--link sm:hover:text-accent sm:before:bg-accent"
+              href="#"
+              >about</a
+            >
+          </li>
+          <li class="m-2">
+            <a
+              class="nav--link sm:hover:text-accent sm:before:bg-accent"
+              href="#"
+              >servise</a
+            >
+          </li>
+          <li class="m-2">
+            <a
+              class="nav--link sm:hover:text-accent sm:before:bg-accent"
+              href="#"
+              >contant</a
+            >
+          </li>
+        </ul>
+
+        <div class="hamburger sm:hidden"></div>
+
+        <a
+          class="uppercase border-2 border-accent p-2 text-base rounded sm:text-lg sm:px-4"
+          href="#"
+          >Book Now</a
+        >
+      </nav>
+
+      <section
+        class="flex flex-col gap-10 lg:flex-row lg:*:basis-full lg:gap-x-24 xl:gap-x-12"
+      >
+        <div
+          class="flex flex-col gap-y-5 lg:gap-y-12 xl:self-center xl:gap-y-24"
+        >
+          <div class="space-y-2 lg:space-y-4">
+            <h6
+              class="text-sm pl-6 uppercase relative before before:h-1 before:w-4 before:bg-accent before:top-2/4 before:-translate-y-2/4 before:left-0 lg:text-lg"
+            >
+              Professional Photographer
+            </h6>
+            <h1 class="text-5xl font-bold lg:text-7xl">John Doe</h1>
+          </div>
+
+          <div
+            class="flex flex-col gap-y-5 lg:gap-y-8 xl:pl-16 xl:relative xl:before:h-full xl:before xl:before:w-5 xl:before:top-0 xl:before:left-0"
+          >
+            <ul class="flex gap-x-5">
+              <li
+                class="hover:text-accent transition-colors cursor-pointer lg:text-2xl"
+              >
+                <i class="fa-brands fa-facebook w-3 h-3"></i>
+              </li>
+              <li
+                class="hover:text-accent transition-colors cursor-pointer lg:text-2xl"
+              >
+                <i class="fa-brands fa-twitter"></i>
+              </li>
+              <li
+                class="hover:text-accent transition-colors cursor-pointer lg:text-2xl"
+              >
+                <i class="fa-brands fa-dribbble"></i>
+              </li>
+              <li
+                class="hover:text-accent transition-colors cursor-pointer lg:text-2xl"
+              >
+                <i class="fa-brands fa-youtube"></i>
+              </li>
+            </ul>
+
+            <p class="lg:text-lg">
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+              Molestias dolor non eius! Qui amet eveniet rem! Ducimus cupiditate
+              aliquam vero?
+            </p>
+
+            <a
+              class="uppercase p-2 border-2 border-accent self-start text-xs rounded sm:text-base sm:px-4"
+              href="#"
+            >
+              view Portfolio</a
+            >
+          </div>
+        </div>
+        <figure>
+          <img src="./images/showcase.jpg" alt="" />
+        </figure>
+      </section>
+    </header>
+
+    <script src="./src/app.js"></script>
+  </body>
+</html>
