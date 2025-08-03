@@ -7,3 +7,5 @@ hamburger.addEventListener("click", () => {
 });
 
 // sina
+
+// ali
