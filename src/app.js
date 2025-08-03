@@ -7,3 +7,7 @@ hamburger.addEventListener("click", () => {
 });
 
 // sina
+
+
+
+// sina and ali
