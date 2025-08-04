@@ -29,7 +29,7 @@
   }
 
   .hamburger {
-    @apply fixed  bg-accent py-5 top-[30px] right-2/4 h-8 w-12 z-30 rounded cursor-pointer before:content-[''] before:h-0.5 before:w-2/3 before:bg-white before:absolute before:top-4 before:left-2 after:content-[''] after:h-0.5 after:w-1/3 after:bg-text after:absolute after:top-6 after:left-2 before:transition after:transition;
+    @apply fixed  bg-accent py-5 top-[30px] right-2/4 translate-x-2/4 h-8 w-12 z-30 rounded cursor-pointer before:content-[''] before:h-0.5 before:w-2/3 before:bg-white before:absolute before:top-4 before:left-2 after:content-[''] after:h-0.5 after:w-1/3 after:bg-text after:absolute after:top-6 after:left-2 before:transition after:transition;
   }
 
   .hamburger.close {
