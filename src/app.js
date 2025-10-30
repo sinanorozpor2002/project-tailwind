@@ -5,9 +5,3 @@ hamburger.addEventListener("click", () => {
   hamburger.classList.toggle("close");
   nav.classList.toggle("open");
 });
-
-// sina
-
-// sina and ali
-
-// ali
